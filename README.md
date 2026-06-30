@@ -39,9 +39,15 @@ This is exactly the problem that [GalaxEye's OptoSAR satellite (launched May 202
 | SAR only | 0.5424 | -38.4% |
 | **Fusion (robust)** | **0.5077** | -43.7% |
 
+![Model comparison](model_comparison.png)
+
 **The key result:** Optical collapses catastrophically under clouds. The fusion model — trained with modality dropout to handle missing optical data — maintains near-SAR performance during monsoon while achieving near-optical performance in clear sky.
 
----
+## Classical Baselines
+
+![NDVI baseline](ndvi_baseline.png)
+
+![SAR baseline](sar_baseline.png)
 
 ## Study Area
 
@@ -61,6 +67,10 @@ Ludhiana district, Punjab, India — one of India's most productive wheat-growin
 - **Optical**: Sentinel-2 SR Harmonized, bands B2/B3/B4/B8 (Blue, Green, Red, NIR), cloud filter <20%
 - **Preprocessing**: Speckle filtering (focal mean), Sentinel-2 reflectance scaling (÷10000), band normalization to [0,1]
 - **Resolution**: 100m for training, exportable to 20m for inference
+
+![SAR vs Optical comparison](punjab_sar_vs_optical.png)
+
+![Speckle filtering before/after](speckle_filter_comparison.png)
 
 ### Model architecture
 
