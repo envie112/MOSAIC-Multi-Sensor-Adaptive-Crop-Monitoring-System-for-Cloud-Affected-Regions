@@ -1,7 +1,7 @@
 # MOSAIC-Multi-Sensor-Adaptive-Crop-Monitoring-System-for-Cloud-Affected-Regions
 # SAR + Optical Fusion for Crop Monitoring Under All Weather Conditions
 
-hero_figure.png
+![SAR vs Optical Fusion Results](hero_figure.png)
 
 > *"Optical collapses 74% during monsoon. SAR holds up but has a lower ceiling. This fusion model matches optical in clear sky and matches SAR in monsoon — it's the only model that works well in both conditions."*
 
