@@ -3,7 +3,7 @@
  
 **SAR + Optical Fusion for Crop Monitoring Under All Weather Conditions**
  
-![Hero figure](hero_figure.png)
+![Hero figure](hero_figure.PNG)
  
 > *Optical collapses 96% during monsoon. SAR holds up but has a lower ceiling. This fusion model matches optical in clear sky and comes within a few points of SAR in monsoon — it's the only model that performs well in both conditions.*
  
